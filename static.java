@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 class Main
 {
     static int t=100;
