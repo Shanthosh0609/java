@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 class Main
 {
     static int t=100;
@@ -13,7 +13,13 @@ class Main
         }
         public static void main(String[] args)
         {
-            Main m=new Main();
-            Main m1=new Main();
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Cars Entering :");
+            int n=sc.nextInt();
+            Main[] m= new Main[n];
+            for(int i=0;i<n;i++){
+                m[i]=new Main();
+            }
+           
         }
 }
